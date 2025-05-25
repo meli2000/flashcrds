@@ -1,18 +1,33 @@
-.card-container{
-    background-color: blue;
-    height: 100px;
-    width: 75px;
-    align-items: center;
-    justify-content: center;
-}
-h1{
-    justify-content:start;
-}
-body{
-gap: 2rem;
-  align-items: center; 
+.card-container {
+  background-color: blue;
+  height: 300px;
+  width: 175px;
+  align-items: center;
   justify-content: center;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
 }
+
+h1 {
+  justify-content: start;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  height: 100vh;
+
+  padding: 0;
+  margin: 0;
+}
+
+/* Method for order BEM (block - element - modify) */
+.card {
+  /* border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.card-container {}
